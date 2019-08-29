@@ -14,14 +14,32 @@ body{
     margin: auto;
 }
 .box-1{
-
+    margin-top: 15px;
     background-color: #333;
     color: #fff;
-/*
+    border: 5px red solid;
+    border-width: 7px;
+    padding: 5px 15px;
+  
+/*  
     border-right:5px red solid; 
     */
 }
 .box-1 h2:hover{
     color: deeppink;
     text-decoration: none;
+}
+.box-1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration:underline;
+
+}
+.box-2{
+
+    margin: 20px 0;
+    border: 3px dotted #ccc;
+    padding: 0 20px;
+
 }
