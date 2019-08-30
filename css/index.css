@@ -8,6 +8,11 @@ body{
     margin:0; 
    
 }
+a{
+
+    text-decoration: none;
+    color: black;
+}
 .container{
 
     width: 80%; 
@@ -45,5 +50,14 @@ body{
 }
 .categories {
 
-    
+    border: 3px #ccc solid;
+    border-radius: 13px;
+}
+.categories h2{
+    text-align: center;
+}
+.categories ul{
+    padding: 0  15px;
+    list-style: square;
+    list-style: none;
 }
