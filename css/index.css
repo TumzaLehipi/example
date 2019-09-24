@@ -42,22 +42,48 @@ a{
 
 }
 .box-2{
-
+    background-color: #555555;
+    color: #fff;
     margin: 20px 0;
-    border: 3px dotted #ccc;
+    border: 3px solid red;
     padding: 0 20px;
+    border-radius: 3px;
 
 }
 .categories {
 
-    border: 3px #ccc solid;
+    border: 3px red solid;
     border-radius: 13px;
+    color: #fff;
 }
 .categories h2{
     text-align: center;
+    color: #fff;
 }
 .categories ul{
+    color: #fff;
     padding: 0  15px;
     list-style: square;
     list-style: none;
+}
+.categories li{
+
+    padding-bottom: 6px;
+    border-bottom: dotted 1px 
+}
+.my_form{
+
+    padding: 15px;
+
+
+}
+.my_form .form-group{
+
+    padding-bottom: 15px;
+
+}
+.my_form label {
+
+    display:block;
+
 }
